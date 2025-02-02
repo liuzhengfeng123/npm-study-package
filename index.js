@@ -5,3 +5,7 @@ exports.printMsg = function () {
 exports.sayHi = function (msg) {
   console.log('Hello ' + msg)
 }
+
+exports.add = function (num1, num2) {
+  return num1 + num2
+}
